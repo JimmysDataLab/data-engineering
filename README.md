@@ -48,9 +48,11 @@ Data -> Serializer --------byte stream---------|-> Data Store
 * Batch / Micro-batch / Streaming
 * ETL / ELT
 ## Ways to injest data
-* DB connection JDBC
-* CDC Postgresql Mysql
-* 
+* DB -> JDBC
+* CDC->Postgresql, Mysql
+* API-> Salesforce, Google Analytics,
+* Managed connectors-> Airbyte
+* Streaming-> Kinesis, Kafka
 
 
 
