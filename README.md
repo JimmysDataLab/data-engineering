@@ -14,7 +14,14 @@ Generation ->  Ingestion -> Transformation -> Serving       -> ML/AI
   * Idempotency
   * AWS SQS, Kinesis, RabbitMQ, Kafka, Spark
 ## Storage
-* 
+* HDD / SSD / RAM
+* Networking
+* Serialization -> turning data into byte streams
+```
+                                               |-> File
+Data -> Serializer --------byte stream---------|-> Data Store
+                                               |-> Memory  
+```
 
 ### Misc
 * Distributed computing and storage paradigm
