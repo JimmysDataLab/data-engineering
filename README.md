@@ -1,11 +1,11 @@
 # data-engineering
 Everything about modern data engineering
-
+```
                                                             -> Analytics
 Generation ->  Ingestion -> Transformation -> Serving       -> ML/AI
                -----------------------------------------    -> Reverse ETL
                                Storage
-
+```
 ## Data generation (source systems)
 * structured / unstructured data
 * Relational database / Non-relational database / Key-value store
