@@ -13,7 +13,7 @@ Generation ->  Ingestion -> Transformation -> Serving       -> ML/AI
   * event streaming
   * Idempotency
   * AWS SQS, Kinesis, RabbitMQ, Kafka, Spark
-## Storage
+# Storage
 * HDD / SSD / RAM
 * Networking
 * Serialization -> turning data into byte streams
@@ -27,7 +27,25 @@ Data -> Serializer --------byte stream---------|-> Data Store
 * Distributed storage + Distributed compute
   * S3, Spark, Redshift, snowflake
 * Row based vs columnar storate (OLTP vs OLAP)
-  
+### Data warehouse, lake, lakehouse
+* Data Warehouse
+  *  Mostly used of structured data, business analytics
+  *  OLAP
+  *  preprocessed
+  *  eg: redshift, BigQuery, snoflake
+* Data Lake
+  * Unstructured and structured
+  * Store it first ,look later
+  * eg : s3
+* Data lakehouse
+  * best of both worlds
+  * eg : s3 + ICEBERG, DELTA LAKE
+  * Nowadays we can see separation between storage and compute Eg: Trino
+
+* Data storage lifecycle - hot, warm, cold
+# Ingestion
+* Moving data from source system to storage systems.
+* 
 
 
 
