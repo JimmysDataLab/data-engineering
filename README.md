@@ -45,6 +45,11 @@ Data -> Serializer --------byte stream---------|-> Data Store
 * Data storage lifecycle - hot, warm, cold
 # Ingestion
 * Moving data from source system to storage systems.
+* Batch / Micro-batch / Streaming
+* ETL / ELT
+## Ways to injest data
+* DB connection JDBC
+* CDC Postgresql Mysql
 * 
 
 
