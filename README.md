@@ -17,11 +17,19 @@ Generation ->  Ingestion -> Transformation -> Serving       -> ML/AI
 * HDD / SSD / RAM
 * Networking
 * Serialization -> turning data into byte streams
-```
+  * Row based serialization / column based serialization
+* Types of storage -> File, block, object, cache, stream
+ ```
                                                |-> File
 Data -> Serializer --------byte stream---------|-> Data Store
                                                |-> Memory  
 ```
+* Distributed storage + Distributed compute
+  * S3, Spark, Redshift, snowflake
+* Row based vs columnar storate (OLTP vs OLAP)
+  
+
+
 
 ### Misc
 * Distributed computing and storage paradigm
